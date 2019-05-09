@@ -1,0 +1,20 @@
+﻿  main.c
+d:\vc\vc_dmo\cproject\cmidwave\domainoriented.h(13): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\vc\vc_dmo\cproject\cmidwave\main.c(317): warning C4113: “void (__cdecl *)(ModuleBase *)”和“void (__cdecl *)(ModuleBase *,ModuleInerLogicOperation *)”的参数列表不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(319): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(320): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(323): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(323): warning C4047: “=”:“void (__cdecl *)(ModuleBase *)”与“NICMod *(__cdecl *)(NICMod *)”的间接级别不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(361): warning C4133: “函数”: 从“NICMod *”到“ModuleBase *”的类型不兼容
+d:\vc\vc_dmo\cproject\cmidwave\main.c(400): warning C4113: “void (__cdecl *)(DiskMod *)”和“void (__cdecl *)(ModuleBase *,ModuleInerLogicOperation *)”的参数列表不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(401): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(402): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(403): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(406): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(406): warning C4047: “=”:“void (__cdecl *)(ModuleBase *)”与“NICMod *(__cdecl *)(NICMod *)”的间接级别不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(408): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmidwave\main.c(443): warning C4133: “函数”: 从“DiskMod *”到“ModuleBase *”的类型不兼容
+d:\vc\vc_dmo\cproject\cmidwave\main.c(139): warning C4716: “sendPack”: 必须返回一个值
+d:\vc\vc_dmo\cproject\cmidwave\main.c(197): warning C4716: “ModuleCtlRegMod”: 必须返回一个值
+d:\vc\vc_dmo\cproject\cmidwave\main.c(227): warning C4715: “ModuleCtlRegLogicOpt”: 不是所有的控件路径都返回值
+  cmidwave.vcxproj -> D:\vc\vc_dmo\cproject\x64\Debug\cmidwave.exe
