@@ -1,0 +1,4 @@
+﻿  main.c
+d:\vc\vc_dmo\cproject\cmdpattern\main.c(121): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\cmdpattern\main.c(143): warning C4028: 形参 1 与声明不同
+  cmdPattern.vcxproj -> D:\vc\vc_dmo\cproject\x64\Debug\cmdPattern.exe
