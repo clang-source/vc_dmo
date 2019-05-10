@@ -15,4 +15,9 @@
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dombase.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

@@ -1,0 +1,20 @@
+﻿  base.c
+  decorate.c
+d:\vc\vc_dmo\cproject\decorate\decorate.c(10): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\decorate\decorate.c(11): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\decorate\decorate.c(33): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\decorate\decorate.c(33): warning C4047: “=”:“void (__cdecl *)(Object *)”与“DecorateBase *(__cdecl *)(DecorateBase *)”的间接级别不同
+d:\vc\vc_dmo\cproject\decorate\decorate.c(48): warning C4029: 声明的形参表不同于定义
+d:\vc\vc_dmo\cproject\decorate\decorate.c(60): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\decorate\decorate.c(61): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\decorate\decorate.c(82): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\decorate\decorate.c(83): warning C4028: 形参 1 与声明不同
+  main.c
+d:\vc\vc_dmo\cproject\decorate\main.c(11): warning C4013: “TargetConstruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\decorate\main.c(14): warning C4013: “DecorateCharIOConstruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\decorate\main.c(14): warning C4312: “类型强制转换”: 从“int”转换到更大的“DecorateBase *”
+d:\vc\vc_dmo\cproject\decorate\main.c(15): warning C4013: “DecorateBufferIOConstruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\decorate\main.c(15): warning C4312: “类型强制转换”: 从“int”转换到更大的“DecorateBase *”
+d:\vc\vc_dmo\cproject\decorate\main.c(11): warning C4047: “初始化”:“Target *”与“int”的间接级别不同
+  正在生成代码...
+  decorate.vcxproj -> D:\vc\vc_dmo\cproject\x64\Debug\decorate.exe
