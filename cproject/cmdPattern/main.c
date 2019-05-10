@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -25,20 +27,23 @@ type##Construct((type*)myalloc(sizeof(type)),##__VA_ARGS__);
 
 
 #elif _WIN64
+#define NEW(type,...)\
 type##Construct((type*)myalloc(sizeof(type)), ##__VA_ARGS__);
 
 
 #elif __linux__
-#define NEW(type)\
+#define NEW(type,...)\
 ({\
 	type * o = myalloc(sizeof(type));\
+	type##Construct(o, ##__VA_ARGS__);\
 	o;\
 })
 
 #elif __unix__
-#define NEW(type)\
+#define NEW(type,...)\
 ({\
 	type * o = myalloc(sizeof(type));\
+    type##Construct(o, ##__VA_ARGS__);\
 	o;\
 })
 
@@ -85,21 +90,29 @@ void CmdBaseDelete(CmdBase *this)
 	
 
 }
-struct OpenCmd_; 
-typedef struct OpenCmd_ OpenCmd;
+//宏也是降低代码复杂度的一种方式
+//## 如果不衔接就是断开
+#define DefCmd(typeCmd)\
+	struct  typeCmd##_ ;\
+	typedef struct  typeCmd##_  typeCmd ;\
+	struct typeCmd##_{\
+		CmdBase base; 
 
-struct OpenCmd_ {
-	CmdBase base;
-	void(*onOpen)(OpenCmd* this, int fd);
-};
 
-struct CloseCmd_; 
-typedef struct CloseCmd_ CloseCmd;
-struct CloseCmd_ {
-	CmdBase base;
-	void(*onClose)(CloseCmd* this, int fd);
-	
-};
+#define EndDef  };
+
+
+DefCmd(OpenCmd)
+void(*onOpen)(OpenCmd* this, int fd);
+
+
+EndDef
+
+DefCmd(CloseCmd)
+void(*onClose)(CloseCmd* this, int fd);
+
+
+EndDef
 
 
 void OpenCmdOnOpen(OpenCmd* this, int fd);
