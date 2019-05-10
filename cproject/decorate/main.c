@@ -17,6 +17,8 @@ int main(int argc, const char *argvs[])
 	chr->decorate(chr);
 	cb->decorate(cb);
 
+	chr->decorate(cb);
+
 	VIR_DELETE(chr);
 
 	system("pause");
