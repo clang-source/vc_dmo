@@ -1,0 +1,18 @@
+﻿  adapter.c
+d:\vc\vc_dmo\cproject\adapter\adapter.c(10): warning C4047: “=”:“void (__cdecl *)(APIBase *)”与“APIBase *(__cdecl *)(APIBase *)”的间接级别不同
+d:\vc\vc_dmo\cproject\adapter\adapter.c(33): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\adapter\adapter.c(34): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\adapter\adapter.c(53): warning C4028: 形参 1 与声明不同
+d:\vc\vc_dmo\cproject\adapter\adapter.c(54): warning C4028: 形参 1 与声明不同
+  main.c
+d:\vc\vc_dmo\cproject\adapter\main.c(35): warning C4013: “OldAPIConstruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\adapter\main.c(36): warning C4013: “NowAPIConstruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\adapter\main.c(38): warning C4013: “NewAPIConstruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\adapter\main.c(48): warning C4013: “OldAPIDestruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\adapter\main.c(49): warning C4013: “NowAPIDestruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\adapter\main.c(50): warning C4013: “NewAPIDestruct”未定义；假设外部返回 int
+d:\vc\vc_dmo\cproject\adapter\main.c(35): warning C4047: “初始化”:“OldAPI *”与“int”的间接级别不同
+d:\vc\vc_dmo\cproject\adapter\main.c(36): warning C4047: “初始化”:“NowAPI *”与“int”的间接级别不同
+d:\vc\vc_dmo\cproject\adapter\main.c(38): warning C4047: “初始化”:“NewAPI *”与“int”的间接级别不同
+  正在生成代码...
+  adapter.vcxproj -> D:\vc\vc_dmo\cproject\x64\Debug\adapter.exe
