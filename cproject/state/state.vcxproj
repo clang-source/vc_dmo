@@ -115,7 +115,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mian.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="state.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h" />

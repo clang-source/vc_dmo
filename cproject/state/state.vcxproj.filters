@@ -11,7 +11,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mian.c">
+    <ClCompile Include="state.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

@@ -5,10 +5,6 @@
 struct _Target;
 typedef struct _Target Target;
 
-struct _Target {
-	void(*changeState)(Target* this);
-
-};
 
 struct _StateBase;
 
@@ -16,12 +12,10 @@ typedef struct _StateBase StateBase;
 
 
 
-
-
-
 struct _StateBase {
-	void(*onChanged)(StateBase* this, Target* target);
-
+	Target * target;
+	void(*onChanged)(StateBase*, Target* target);
+	void(*destruct)(StateBase*);
 };
 
 struct _UpState;
@@ -51,6 +45,10 @@ struct _MoveState {
 
 
 
+struct _Target {
+	void(*changeState)(Target*, StateBase*);
+
+};
 
 
 #endif

@@ -1,0 +1,5 @@
+﻿  main.c
+d:\vc\vc_dmo\cproject\bitsection\main.c(15): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\vc\vc_dmo\cproject\bitsection\main.c(15): note: 请考虑在格式字符串中使用“%zd”
+d:\vc\vc_dmo\cproject\bitsection\main.c(12): warning C4101: “pt”: 未引用的局部变量
+  bitsection.vcxproj -> D:\vc\vc_dmo\cproject\x64\Debug\bitsection.exe
