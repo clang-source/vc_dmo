@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sched", "sched\sched.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "syn", "syn\syn.vcxproj", "{CE7C8880-0B83-4242-B756-57C8CBAB01FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_singleton_withmacro", "cpp_singleton_withmacro\cpp_singleton_withmacro.vcxproj", "{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{CE7C8880-0B83-4242-B756-57C8CBAB01FF}.Release|x64.Build.0 = Release|x64
 		{CE7C8880-0B83-4242-B756-57C8CBAB01FF}.Release|x86.ActiveCfg = Release|Win32
 		{CE7C8880-0B83-4242-B756-57C8CBAB01FF}.Release|x86.Build.0 = Release|Win32
+		{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}.Debug|x64.ActiveCfg = Debug|x64
+		{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}.Debug|x64.Build.0 = Debug|x64
+		{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}.Debug|x86.ActiveCfg = Debug|Win32
+		{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}.Debug|x86.Build.0 = Debug|Win32
+		{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}.Release|x64.ActiveCfg = Release|x64
+		{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}.Release|x64.Build.0 = Release|x64
+		{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}.Release|x86.ActiveCfg = Release|Win32
+		{6DD18BF6-2EA7-4C0E-8C74-62230E4F2FD2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
